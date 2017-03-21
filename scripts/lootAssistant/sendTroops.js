@@ -27,11 +27,17 @@
         }
     }
 
-    lootAssistant.rows.forEach(function (row) {
-       if (row.distance > from && row.distance < to) {
+    var count = 0;
+    function call() {
+        if (count === lootAssistant.rows.length) {
+            return;
+        }
+
+        var row = lootAssistant.rows[count++];
+        if (row.distance > from && row.distance <= to) {
             sender(row);
-       }
-    });
-    
+            setTimeout(call, 200 + Math.random() * 20)
+        }
+    }
 
 })();
