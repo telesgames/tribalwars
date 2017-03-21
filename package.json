@@ -1,0 +1,29 @@
+{
+  "name": "tribalwars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-international": "^1.0.13",
+    "gulp-jshint": "^2.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-remove-empty-lines": "0.0.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-safety-net": "^1.0.1",
+    "gulp-strip-comments": "^2.4.4",
+    "gulp-uglify": "^2.0.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "yargs": "^6.5.0"
+  }
+}

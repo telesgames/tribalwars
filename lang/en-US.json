@@ -1,0 +1,30 @@
+{
+  "unity" : {
+    "spearFighter": "spear fighter",
+    "swordsman": "swordsman",
+    "axeman": "axeman",
+    "archer": "archer",
+    "scout": "scout",
+    "lightCavalary": "lightc avalary",
+    "mounterArcher": "mounter archer",
+    "heavyCavalary": "heavy cavalary",
+    "ram": "ram",
+    "catapult": "catapult",
+    "paladin": "paladin",
+    "nobleman": "nobleman",
+    "militia": "militia"
+  },
+  "reportDiscoveredResourcesTroopsCalculator": {
+    "resourcesNotFound": "Resources not found."
+  },
+  "groupVillageCoordinatesExtractor": {
+    "noCoordinateFound": "Coordinates not found.",
+    "copyCoordinates": "Copy coordinates: Ctrl+C, Enter"
+  },
+  "marketplaceScout": {
+    "customThreshold": "buy: wood;stone;iron - sell: wood;stone;iron"
+  },
+  "marketplaceTrader": {
+    "submitButton": "Safe Trade"
+  }
+}

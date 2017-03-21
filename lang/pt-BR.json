@@ -1,0 +1,30 @@
+{
+  "unity": {
+    "spearFighter": "lanceiro",
+    "swordsman": "espadachim",
+    "axeman": "barbaro",
+    "archer": "arqueiro",
+    "scout": "explorador",
+    "lightCavalary": "cavalaria leve",
+    "mounterArcher": "arqueiro a cavalo",
+    "heavyCavalary": "cavalaria pesada",
+    "ram": "ariete",
+    "catapult": "catapulta",
+    "paladin": "paladino",
+    "nobleman": "nobre",
+    "militia": "milicia"
+  },
+  "reportDiscoveredResourcesTroopsCalculator": {
+    "resourcesNotFound": "Nenhum recurso encontrado."
+  },
+  "groupVillageCoordinatesExtractor": {
+    "noCoordinateFound": "Nenhuma coordenada foi encontrada.",
+    "copyCoordinates": "Copiar coordenadas: Ctrl+C, Enter"
+  },
+  "marketplaceScout": {
+    "customThreshold": "comprar: madeira;argila;ferro - vender: madeira;argila;ferro"
+  },
+  "marketplaceTrader": {
+    "submitButton": "Troca segura"
+  }
+}
