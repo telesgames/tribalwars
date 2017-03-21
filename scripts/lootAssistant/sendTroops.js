@@ -6,9 +6,9 @@
 
     var lootAssistant = require("../../common/lootAssistant/lootAssistant.js");
     
-    var from = Number(sessionStorage.getItem("sendTroops.from")) || 5,
-        to = Number(sessionStorage.getItem("sendTroops.to")) || 30,
-        type = Number(sessionStorage.getItem("sendTroops.type")) || "b",
+    var from = Number(localStorage.getItem("sendTroops.from")) || 5,
+        to = Number(localStorage.getItem("sendTroops.to")) || 30,
+        type = Number(localStorage.getItem("sendTroops.type")) || "b",
         sender = null;
 
     if (type === "a") {
