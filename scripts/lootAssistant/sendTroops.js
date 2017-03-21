@@ -5,7 +5,7 @@
     "use strict";
 
     var lootAssistant = require("../../common/lootAssistant/lootAssistant.js");
-    
+
     var from = Number(localStorage.getItem("sendTroops.from")) || 5,
         to = Number(localStorage.getItem("sendTroops.to")) || 30,
         type = Number(localStorage.getItem("sendTroops.type")) || "b",
@@ -27,17 +27,19 @@
         }
     }
 
+    lootAssistant.rows = lootAssistant.rows.filter(function (row) {
+        return row.distance > from && row.distance <= to;
+    });
+
     var count = 0;
-    function call() {
+    function run() {
         if (count === lootAssistant.rows.length) {
             return;
         }
 
-        var row = lootAssistant.rows[count++];
-        if (row.distance > from && row.distance <= to) {
-            sender(row);
-            setTimeout(call, 200 + Math.random() * 20)
-        }
+        sender(lootAssistant.rows[count++]);
+        setTimeout(run, 200 + Math.random() * 20)
     }
+    run();
 
 })();
