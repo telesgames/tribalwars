@@ -36,6 +36,7 @@
         this.sendA = sendA;
         this.sendB = sendB;
         this.sendC = sendC;
+        this.hasC = $tds[10].find("a").length > 0;
 
         function removeReports() {
             $($tds[0].find("a")).click();

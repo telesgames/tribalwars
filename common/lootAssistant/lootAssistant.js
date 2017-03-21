@@ -36,7 +36,7 @@
 
     function hideEmptyWallVillages() {
         module.rows.filter(function (row) {
-            return row.wall < 0 || Number.isNaN(row.wall);
+            return row.wall == 0 || Number.isNaN(row.wall);
         }).forEach(function (row) {
             row.hide();
         })

@@ -25,7 +25,7 @@
     }
     function hideEmptyWallVillages() {
         module.rows.filter(function (row) {
-            return row.wall < 0 || Number.isNaN(row.wall);
+            return row.wall == 0 || Number.isNaN(row.wall);
         }).forEach(function (row) {
             row.hide();
         })
@@ -61,6 +61,7 @@
         this.sendA = sendA;
         this.sendB = sendB;
         this.sendC = sendC;
+        this.hasC = $tds[10].find("a").length > 0;
         function removeReports() {
             $($tds[0].find("a")).click();
         }
