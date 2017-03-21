@@ -36,7 +36,7 @@
 
     function hideEmptyWallVillages() {
         module.rows.filter(function (row) {
-            return row.wall === 0;
+            return row.wall <= 0;
         }).forEach(function (row) {
             row.hide();
         })
