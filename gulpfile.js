@@ -63,7 +63,7 @@ gulp.task('scripts', ['clean'], function () {
     var src = [
         "scripts/reportDiscoveredResourcesTroopsCalculator/reportDiscoveredResourcesTroopsCalculator.js",
         "scripts/marketplaceBalance/marketplaceBalance.js",
-        "scripts/marketplaceScout/marketplaceScout.js",
+        "scripts/marketplaceScout/*",
         "scripts/marketplaceTrader/marketplaceTrader.js",
         "scripts/lootAssistant/*"
     ];
