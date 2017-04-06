@@ -38,7 +38,7 @@
         }
 
         sender(lootAssistant.rows[count++]);
-        setTimeout(run, 200 + Math.random() * 20)
+        setTimeout(run, 210 + Math.random() * 20)
     }
     run();
 

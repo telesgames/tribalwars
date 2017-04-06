@@ -37,6 +37,7 @@
         this.sendB = sendB;
         this.sendC = sendC;
         this.hasC = $tds[10].find("a").length > 0;
+        this.openCustomTroops = openCustomTroops;
 
         function removeReports() {
             $($tds[0].find("a")).click();
@@ -57,7 +58,11 @@
         function sendC() {
             $tds[10].find("a").click();
         }
-    };
+
+        function openCustomTroops() {
+            $tds[11].find("a").click();
+        }
+    }
 
     function _getStatus($td) {
         var src = $td.find("img").attr("src");
