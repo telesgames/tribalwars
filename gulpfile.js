@@ -1,5 +1,5 @@
 /**
- * Created by Rafael Teles <rmteles@translucentcomputing.com> on 20-Feb-17.
+ * Created by Rafael Teles <rmtelesgames@gmail.com> on 20-Feb-17.
  */
 var gulp = require('gulp');
 var concat = require('gulp-concat');
@@ -63,8 +63,7 @@ gulp.task('scripts', ['clean'], function () {
     var src = [
         "scripts/reportDiscoveredResourcesTroopsCalculator/reportDiscoveredResourcesTroopsCalculator.js",
         "scripts/marketplaceBalance/marketplaceBalance.js",
-        "scripts/marketplaceScout/*",
-        "scripts/marketplaceTrader/marketplaceTrader.js",
+        "scripts/marketplace/*",
         "scripts/lootAssistant/*"
     ];
 

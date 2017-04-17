@@ -1,5 +1,5 @@
 /**
- * Created by Rafael Teles <rmteles@translucentcomputing.com> on 20-Feb-17.
+ * Created by Rafael Teles <rmtelesgames@gmail.com> on 20-Feb-17.
  */
 (function (exports) {
     "use strict";
